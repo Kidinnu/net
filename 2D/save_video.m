@@ -39,9 +39,7 @@ for frame = 1:2:size(t,1)
    
 
 	f = getframe(gcf);
-    if saveVideo 
-       writeVideo(v,f); 
-    end
+    writeVideo(v,f); 
 end
 
 close(v);
